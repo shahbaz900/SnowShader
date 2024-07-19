@@ -303,7 +303,6 @@ GameObject:
   - component: {fileID: 1110869075}
   - component: {fileID: 1110869074}
   - component: {fileID: 1110869077}
-  - component: {fileID: 1110869078}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -403,23 +402,6 @@ MonoBehaviour:
   - {fileID: 624296803}
   - {fileID: 1778876253}
   _drawDistance: 0.3
---- !u!114 &1110869078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110869073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c414d2b3531cec64f92ea9b68e6510a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  terrain: {fileID: 1110869075}
-  terrainWidth: 23
-  terrainHeight: 23
-  chunkSize: 16
-  viewDistance: 10
 --- !u!1001 &1275109035
 PrefabInstance:
   m_ObjectHideFlags: 0
